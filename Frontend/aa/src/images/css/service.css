@@ -1,0 +1,17 @@
+.service{
+    margin-left: 8vw;
+    display: flex;
+}
+.card{
+    margin-top: 0.3rem;
+    margin-left: 1.5%;
+    width: 20vw;
+    height:17vh;
+    background: white;
+    border-radius: 10px;
+    padding:0.3% 2%;
+}
+.card:hover{
+    background:  rgba(39, 110, 243, 0.615);
+    cursor: pointer;
+}

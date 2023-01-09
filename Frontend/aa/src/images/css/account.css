@@ -1,0 +1,73 @@
+.account{
+    display: flex;
+    margin-left: 10vw;
+}
+.announcements{
+    width: 40vw;
+    background: white;
+    position: relative;
+    height: 20vh;
+    border-radius: 15px;
+    background: #3f6ec5bb;
+}
+.announcements button{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.announcements button{
+    border-radius: 7px;
+    border: 1px solid white;
+    background: white;
+    height:30px;
+    color:blue;
+    font-weight: 700;
+}
+.announcements p{
+    color: white;
+    margin-left: 6%;
+    font-family:'Courier New', Courier, monospace;
+}
+.summary {
+    height: 20vh;
+    background: white;
+    width: 30vw;
+    margin-left: 10vw;
+    border-radius: 15px;
+}
+.summary h3{
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.acc{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    margin-left: 5%;
+    font-weight: 700;
+}
+.summary button{
+    background: rgba(39, 110, 243, 0.988);
+    border: none;
+    height: 35px;
+    border-radius: 6px;
+    padding: 2%;
+    color: whitesmoke;
+    margin-left: 68%;
+    font-size: 13px;
+    cursor: pointer;
+}
+.summary button:hover{
+    color: beige;
+}
+.transaction{
+    background: white;
+    padding:0.5% 1%;
+    border-radius: 10px;
+}
+.chart{
+    height: 230px;
+    display: flex; 
+}
+.details{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left:-21rem;
+}

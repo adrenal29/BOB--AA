@@ -1,0 +1,167 @@
+.load{
+    margin-top: 20%;
+    margin-left: 45%;
+}
+/* Account Css */
+.account{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}
+.genInfo{
+  margin-top: 2%;
+  margin-left:4% ;
+}
+.welcome{
+    margin-left: 6%;
+    margin-top: 3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.welcome span{
+    color:#fe6634fa ;
+}
+.balanceCard{
+    margin-left: 7%;
+    margin-top: 1%;
+    border: 1px solid whitesmoke ;
+    width: 110%;
+    padding-left:2%;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.bal{
+  font-size: 20px;
+}
+.balanceCard h2{
+    font-family: cursive;
+}
+.withdrawl{
+    margin-left: 7%;
+    margin-top: 20%;
+}
+.progress{
+    margin-top: 2.5%;
+    width: 100%;
+}
+.withdrawl button{
+    margin-top: 8%;
+    margin-left: 30%;
+    height: 2.3rem;
+    width:7rem;
+    border:1px solid rgb(218, 213, 213);
+    background: white;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+}
+.withdrawl button:hover{
+    background:#f8764afa ;
+    color: whitesmoke;
+}
+.graph{
+    width: 50vw;
+    margin-left:15%;
+}
+.pieChart{
+    height: 35%;
+    width: 35%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.notify{
+    margin-top: -1.5rem;
+    margin-left: 5%;
+}
+/* Notificatoin */
+.announcements{
+    width: 70%;
+    background: white;
+    position: relative;
+    height: 15vh;
+    border-radius: 10px;
+    background: #3f6ec5bb;
+}
+.announcements button{
+   margin: 1% 2%;
+}
+/* .announcements button{
+    border-radius: 5%;
+    border: 1px solid white;
+    background: white;
+    height:30px;
+    color:blue;
+    font-weight: 700;
+} */
+.announcements p{
+    color: white;
+    margin-left: 6%;
+    padding-top: 5%;
+    font-family:'Courier New', Courier, monospace;
+}
+.dc{
+    display: flex;
+}
+.dcInfo{
+    margin:7% 10%;
+}
+.blue{
+    background: rgba(39, 110, 243, 0.988);
+    color: rgba(39, 110, 243, 0.988);
+}
+.orange{
+    background-color: #febba4fa;
+    color: #febba4fa;
+}
+.headingS{
+    margin-left: 35%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.chartBar{
+    margin-left: 20%;
+}
+.dailyLimit{
+    height: 2.5rem;
+    border: 1px solid rgb(225, 224, 224);
+    width: 100%;
+    outline:none;
+}
+.limitBtn{
+    height: 2.5rem;
+    width: 6rem;
+    border: none;
+    background-color:#f8764afa  ;
+    border-radius: 5px;
+    margin-top: 1rem;
+    color: white;
+}
+@media(max-width:750px){
+    .account{
+        flex-direction: column;
+        width: 100vw;
+        margin-left: 0;
+    }
+    .welcome{
+        width: 80vw;
+        margin-left: 10%;
+    }
+    .genInfo{
+        width: 100vw;
+        margin-left: 0;
+    }
+    .balanceCard{
+        width: 70%;
+        margin-left:10%;
+    }
+    .type{
+        display: none;
+    }
+    .progress{
+        width: 60%;
+    }
+    .withdrawl{
+        width: 80vw;
+        margin-left: 10%;
+    }
+}

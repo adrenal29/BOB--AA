@@ -1,0 +1,28 @@
+.nav{
+    list-style: none;
+    display: flex;
+    height: 1.5rem;
+    padding-left: 35vw;
+}
+
+.nav li{
+    text-decoration: none;
+    margin-left: 5%;
+     margin-top: -1rem;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: rgb(238, 132, 93);
+}
+.logo{
+    height: 4rem;
+    width: 5rem;
+    position: absolute;
+    top:0;
+    left: 2rem;
+}

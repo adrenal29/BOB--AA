@@ -1,0 +1,42 @@
+.loginCard{
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 8%;
+    border: 1px solid rgb(176, 171, 171);
+    box-shadow:-0.5px 2px 3px 3px rgb(248, 224, 217);
+}
+.loginCard h2{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.loginCard img{
+    padding-left: 27%;
+    height: 25vh;
+    width: 46%;
+}
+.loginCard input{
+    height: 2.5rem;
+    width: 60%;
+    border: 0.2px solid rgb(202, 202, 202);
+    margin:2% 19.3% ;
+    outline: none;
+    padding-left: 2%;
+    box-shadow: -1px -1px 1px 1px rgb(227, 226, 226);
+}
+.loginCard button{
+    margin: 5% 30%;
+    width: 38%;
+    height: 2.7rem;
+    border: none;
+    color: whitesmoke;
+    background: #fe6634fa;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+@media(max-width:750px) {
+    .loginCard{
+        width:80vw;
+        margin: 20% 10vw;
+    }
+}
